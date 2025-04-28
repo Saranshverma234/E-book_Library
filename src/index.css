@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 .custom-bg {
-  @apply bg-library bg-cover bg-center bg-gradient-to-b from-purple-500/30 to-purple-500/50;
+  @apply bg-library bg-cover bg-center bg-gradient-to-b from-purple-500/40 to-purple-500/50;
 }
