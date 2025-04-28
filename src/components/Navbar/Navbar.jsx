@@ -17,10 +17,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center p-4 py-4 px-20 bg-gray-800 text-white shadow-lg">
+    <nav className="flex justify-between items-center p-4 py-4 px-20 bg-amber-100 text-white shadow-lg">
        {/* Logo and title linking to the home page */}
       <Link to="/" className="text-3xl font-bold tracking-wide">
-        <span className="text-red-500">Book</span>Finder
+        <span className="text-blue-950">E-book</span> <span className="text-orange-500">Library</span>
       </Link>
 
       <div className="md:hidden">
@@ -41,22 +41,24 @@ const Navbar = () => {
           to="/"
           className="hover:text-plainpurple transition-all font-semibold text-xl"
           onClick={handleLinkClick}
-        >
-          Home
+        ><span className="text-blue-950">
+          Home</span>
         </Link>
         <Link
           to="/books"
           className="hover:text-plainpurple transition-all font-semibold text-xl mr-4"
           onClick={handleLinkClick}
         >
-          Books
+         <span className="text-blue-950">
+         Book</span>
         </Link>
         <Link
           to="/about"
           className="hover:text-plainpurple transition-all font-semibold text-xl"
           onClick={handleLinkClick}
         >
-          About
+          <span className="text-blue-950">
+          About</span>
         </Link>
       </div>
 
@@ -80,14 +82,16 @@ const Navbar = () => {
                 className="text-white hover:text-plainpurple font-semibold text-xl"
                 onClick={handleLinkClick}
               >
-                Home
+               <span className="text-black">
+               Home</span>
               </Link>
               <Link
                 to="/about"
                 className="text-white hover:text-plainpurple font-semibold text-xl"
                 onClick={handleLinkClick}
               >
-                About
+                <span className="text-black">
+                About</span>
               </Link>
             </nav>
           </div>
