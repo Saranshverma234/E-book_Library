@@ -1,4 +1,4 @@
-# Book Finder Application - Physics Wallah 🔥🚀
+# E-book Library 🔥🚀
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Apache License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
