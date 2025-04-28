@@ -29,7 +29,7 @@ const SearchBar = () => {
   };
 
   return (
-    <div className="flex items-center max-w-[680px] mx-auto p-2 bg-white rounded-full shadow-lg">
+    <div className="flex items-center max-w-[680px] mx-auto p-2 bg-amber-100 rounded-full shadow-lg">
       <form onSubmit={handleSubmit} className="flex-grow w-full">
         <div className="flex w-full">
           <input
@@ -40,7 +40,7 @@ const SearchBar = () => {
           />
           <button
             type="submit"
-            className="p-2 text-[#8d27ae] rounded-full hover:text-[#c010fa] transition duration-300"
+            className="p-2 text-[#373859] rounded-full hover:text-[#426ad5] transition duration-300"
           >
             <HiSearch size={32} />
           </button>

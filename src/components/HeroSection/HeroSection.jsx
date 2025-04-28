@@ -5,7 +5,7 @@ import libraryImg from "../../images/library-img.jpg"; // Importing the library 
 
 const HeroSection = () => {
   return (
-    <section className="relative overflow-auto h-64 flex items-center justify-center min-h-[75vh] bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+    <section className="relative overflow-auto h-64 flex items-center justify-center min-h-[75vh] bg-gradient-to-r from-amber-200 to-blue-950 text-white">
       <div className="absolute z-20 flex flex-col items-center text-center max-w-[770px] px-4">
         {/* Main title of the Hero section */}
         <h1 className="text-1xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 uppercase">
@@ -14,7 +14,7 @@ const HeroSection = () => {
 
         {/* Description paragraph providing context for the application */}
         <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6">
-        Welcome to a world where knowledge is always at your fingertips. Our digital library opens the doors to a vast collection of resources, offering a seamless and enriching experience for learners, researchers, and curious minds alike. Forget the constraints of physical shelves and limited hours; here, you can explore a universe of books, journals, articles, and multimedia content from the comfort of your own device, anytime, anywhere.
+        Welcome to a world where knowledge is always at your fingertips. Our E-book library opens the doors to a vast collection of resources, offering a seamless and enriching experience for learners, researchers, and curious minds alike. Forget the constraints of physical shelves and limited hours; here, you can explore a universe of books, journals, articles, and multimedia content from the comfort of your own device, anytime, anywhere.
         </p>
 
         {/* Align SearchForm in flex column */}
