@@ -67,7 +67,7 @@ Ensure your system meets these requirements:
 
 ## 🎥 Live Demo 
 
-- **🔗 Live Application**: [Visit Book Finder App](https://e-book-library-gilt.vercel.app/)
+- **🔗 Live Application**: [Visit E-book Library App](https://e-book-library-gilt.vercel.app/)
 
 ---
 
