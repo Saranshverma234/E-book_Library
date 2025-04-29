@@ -65,10 +65,9 @@ Ensure your system meets these requirements:
 
 ---
 
-## 🎥 Live Demo and Video Walkthrough
+## 🎥 Live Demo 
 
-- **🔗 Live Application**: [Visit Book Finder App](https://bookfinderapplication.vercel.app/)
-- **🎬 Video Walkthrough**: [Watch on YouTube](https://youtu.be/ARIKWJRoxsw?si=1iKdJz4xP5Njc3hE)
+- **🔗 Live Application**: [Visit Book Finder App](https://e-book-library-gilt.vercel.app/)
 
 ---
 
