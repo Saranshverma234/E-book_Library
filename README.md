@@ -3,7 +3,7 @@
 
 
 <div align="center">
-	<a href="https://github.com/Saranshverma234/"><img src="./logo.png" alt="hero" width="150px"/></a>
+	<a href="https://github.com/Saranshverma234/"><img src="./src/images/logo.jpg" alt="hero" width="150px"/></a>
 	<h1>E-book Library</h1>
      
 	
