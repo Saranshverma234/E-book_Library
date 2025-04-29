@@ -3,9 +3,9 @@
 
 
 <div align="center">
-	<a href="https://github.com/ChinmayKaitade/"><img src="./logo.jpg" alt="hero" width="150px"/></a>
+	<a href="https://github.com/Saranshverma234/"><img src="./logo.png" alt="hero" width="150px"/></a>
 	<h1>E-book Library</h1>
-    <img src="https://img.shields.io/badge/Book%20Finder%20App-React%20%7C%20Tailwind%20CSS%20%7C%20Open%20Library%20API-blueviolet?style=for-the-badge&logo=react" />
+     
 	
 </div>
 
