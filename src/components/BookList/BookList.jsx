@@ -23,7 +23,7 @@ const BookList = () => {
   if (loading) return <Loading />;
 
   return (
-    <section className="py-12 bg-gray-100">
+    <section className="py-12 bg-amber-100">
       <div className="container mx-auto max-w-[1200px]">
         {/* Title section for the book list */}
         <div className="mb-8 text-center">

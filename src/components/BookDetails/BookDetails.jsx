@@ -67,13 +67,13 @@ const BookDetails = () => {
   if (loading) return <Loading />; // Display the Loading component while fetching data
 
   return (
-    <section className="py-20 bg-gray-50 min-h-screen">
+    <section className="py-20 bg-amber-100 min-h-screen">
       <div className="container mx-auto px-6">
         {/* Back button to navigate to the previous page */}
         <div className="flex justify-center mb-12">
           <button
             onClick={() => navigate(-1)} // Navigating back to the previous page
-            className="flex items-center text-blue-600 hover:text-blue-800 text-xl transition-colors"
+            className="flex items-center text-blue-950 hover:text-blue-600 text-xl transition-colors"
           >
             <FaArrowLeft className="mr-3" />
             <span className="font-semibold">Back to Book List</span>
@@ -81,7 +81,7 @@ const BookDetails = () => {
         </div>
 
         {book && ( // Conditional rendering if book details are available
-          <div className="max-w-[800px] mx-auto grid md:grid-cols-2 gap-8 md:gap-16 bg-white rounded-xl shadow-xl p-6 md:p-8">
+          <div className="max-w-[800px] mx-auto grid md:grid-cols-2 gap-8 md:gap-16 bg-gray-100 rounded-xl shadow-xl p-6 md:p-8">
             <div className="flex justify-center items-center">
               <img
                 src={book.cover_img} // Displaying the book cover image
